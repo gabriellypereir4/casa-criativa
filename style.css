@@ -47,6 +47,20 @@ main{
     margin-bottom: 32px;
 }
 
+.button {
+    color: white;
+    background-color: #ff5e84;
+    width: 150px;
+    height: 40px;
+    border-radius: 8px;
+    font-size: 14px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 8px 8px 16px #ff5e8432;
+  }
+
 button{
     background: none;
     color:#ff5E84;
@@ -115,15 +129,16 @@ footer a:hover {
 /* modal */
 
 #modal {
-    background: #ff5E84;
-    position: absolute;
+    background-color: #ff5e84;
+    position: fixed;
     top: 0;
-    display: flex;
-    justify-content: center;
-    transition: 400ms;
     bottom: 0;
     right: 0;
     left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 400ms;
 }
 
 #modal.addScroll{
